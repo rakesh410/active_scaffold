@@ -1,4 +1,4 @@
-unless Rails::VERSION::MAJOR == 3 && Rails::VERSION::MINOR >= 0
+unless Rails::VERSION::MAJOR >= 3 && Rails::VERSION::MINOR >= 0
   raise "This version of ActiveScaffold requires Rails 3.0 or higher.  Please use an earlier version."
 end
 
